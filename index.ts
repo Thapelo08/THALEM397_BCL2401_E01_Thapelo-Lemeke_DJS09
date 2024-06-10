@@ -40,7 +40,7 @@ const you = {
     stayedAt: ['florida-home', 'oman-flat', 'tokyo-bungalow']
 }
 
-// Array of Properties
+// array of Properties
 const properties : Property[] = [
     {
         image: 'images/colombia-property.jpg',
