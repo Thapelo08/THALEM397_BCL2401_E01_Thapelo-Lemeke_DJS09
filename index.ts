@@ -43,7 +43,7 @@ const you = {
 // array of Properties
 const properties : Property[] = [
     {
-        image: 'images/colombia-property.jpg',
+        image: 'images/colombia-proper.jpg',
         title: 'Colombian Shack',
         price: 45,
         location: {
