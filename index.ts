@@ -1,7 +1,7 @@
 import { showReviewTotal, populateUser, showDetails, getTopTwoReviews} from './utils'
 import { Permissions , LoyaltyUser } from './enums'
 import { Review, Property } from './interfaces'
-const propertyContainer = document.querySelector('.properties')
+const   propertyContainer = document.querySelector('.properties')
 const reviewContainer = document.querySelector('.reviews')
 const container = document.querySelector('.container')
 const button = document.querySelector('button')
