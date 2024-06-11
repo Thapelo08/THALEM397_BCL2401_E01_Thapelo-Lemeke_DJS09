@@ -1,8 +1,11 @@
 import { showReviewTotal, populateUser, showDetails, getTopTwoReviews} from './utils'
 import { Permissions , LoyaltyUser } from './enums'
 import { Review, Property } from './interfaces'
+import MainProperty from './classes'
+
 const   propertyContainer = document.querySelector('.properties')
 const reviewContainer = document.querySelector('.reviews')
+
 const container = document.querySelector('.container')
 const button = document.querySelector('button')
 const footer = document.querySelector('.footer')
@@ -43,7 +46,7 @@ const you = {
 // array of Properties
 const properties : Property[] = [
     {
-        image: 'images/colombia-proper.jpg',
+        image: './images/colombia-property.jpg',
         title: 'Colombian Shack',
         price: 45,
         location: {
